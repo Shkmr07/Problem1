@@ -1,13 +1,9 @@
 let num=13 
-let r=0
-    for(i=1;i<=num;i++){
-        if(num%i==0){
-            r+=1;
+let r="yes"
+for(i=2;i<num;i++){
+	if(num%i==0){
+            r="No";
         }
-     }
-        if(r==2){
-         console.log("Yes")
-     }   
-     else{
-         console.log("No")
-     }
+ }       
+ console.log(r)
+     
