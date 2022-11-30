@@ -1,3 +1,4 @@
+let num=121;
 let r=num.toString();
 let a="";
     for(i=r.length-1;i>=0;i--){
